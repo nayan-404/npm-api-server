@@ -8,13 +8,13 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+Mr-NAYAN+Here+🤙;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+🥱;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+Mr.NAYAN+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
 
 
-<a href="https://www.npmjs.com/package/nayan-apis-server"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-apis-server.svg?style=flat-square"></a>
-<img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/nayan-apis-server?label=github&style=flat-square">
-<a href="https://www.npmjs.com/package/nayan-apis-server"><img src="https://img.shields.io/npm/dm/nayan-apis-server.svg?style=flat-square" alt="npm downloads"></a><br>
+<a href="https://www.npmjs.com/package/nayan-apis-servers"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-apis-servers.svg?style=flat-square"></a>
+<img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/nayan-apis-servers?label=github&style=flat-square">
+<a href="https://www.npmjs.com/package/nayan-apis-servers"><img src="https://img.shields.io/npm/dm/nayan-apis-servers.svg?style=flat-square" alt="npm downloads"></a><br>
 
 ## Instalation :
 ```bash
-> npm i nayan-apis-server
+> npm i nayan-apis-servers
 ```
 
 #### Available Api
@@ -50,7 +50,7 @@
 
 ```javascript
 
-const { gpt } = require("nayan-apis-server");
+const { gpt } = require("nayan-apis-servers");
 
 gpt({
     messages: [
@@ -83,7 +83,7 @@ gpt({
 
 ```javascript
 
-const { spotify } = require("nayan-apis-server");
+const { spotify } = require("nayan-apis-servers");
 
 const name = "ghum" //song name
 
@@ -96,7 +96,7 @@ spotify(name).then(data => {
 
 ## Usage Pintarest
 ```javascript
-const { pintarest } = require("nayan-apis-server");
+const { pintarest } = require("nayan-apis-servers");
 
 const search = "Neymar pic"
 
@@ -109,7 +109,7 @@ pintarest(search).then(data => {
 
 ## Usage img2text
 ```javascript
-const { img2text } = require("nayan-apis-server");
+const { img2text } = require("nayan-apis-servers");
 
 img2text("https://i.imgur.com/2TTyRTo.jpeg").then(data => {
   console.log(data)
@@ -117,7 +117,7 @@ img2text("https://i.imgur.com/2TTyRTo.jpeg").then(data => {
 ```
 ## Usage PHOTOXY
 ```js
-const {photoxy} = require("nayan-apis-server");
+const {photoxy} = require("nayan-apis-servers");
 
 const url = "url" // photoxy url
 
@@ -129,7 +129,7 @@ const text = "nayan" // your text
 ```
 ## Usage Photoxy 2 text 
 ```js
-const {photoxy} = require("nayan-apis-server");
+const {photoxy} = require("nayan-apis-servers");
 
 const url = "url" // photoxy 2 text input url
 
@@ -142,7 +142,7 @@ const text2 = "nayan" // your text
 ```
 ## Usaage Textpro
 ```JS
-const {textpro} = require("nayan-apis-server");
+const {textpro} = require("nayan-apis-servers");
 
 const url = "url" // textpro url
 
@@ -154,7 +154,7 @@ const text = "nayan" // your text
 ```
 ## Usage Textpro 2 text 
 ```js
-const {textpro} = require("nayan-apis-server");
+const {textpro} = require("nayan-apis-servers");
 
 const url = "url" // textpro 2 text input url
 
@@ -167,7 +167,7 @@ const text2 = "nayan"// your text
 ```
 ## Usaage Ephoto
 ```JS
-const {ephoto} = require("nayan-apis-server");
+const {ephoto} = require("nayan-apis-servers");
 
 const url = "url" // ephoto url
 
@@ -179,7 +179,7 @@ const text = "nayan" // your text
 ```
 ## Usage Ephoto 2 text 
 ```js
-const {ephoto} = require("nayan-apis-server");
+const {ephoto} = require("nayan-apis-servers");
 
 const url = "url" // ephoto 2 text input url
 
@@ -192,7 +192,7 @@ const text2 = "nayan"// your text
 ```
 ## Usage Ip2Lucation 
 ```js
-const { ip } = require("nayan-apis-server");
+const { ip } = require("nayan-apis-servers");
 
 const address = "ip" //ip address
 
@@ -203,7 +203,7 @@ ip(address).then(data => {
 ```
 ## Usage removebg 
 ```js
-const { removebg } = require("nayan-apis-server");
+const { removebg } = require("nayan-apis-servers");
 
 const url = "url" //pic url
 
@@ -214,7 +214,7 @@ removebg(url).then(data => {
 ```
 ## Usage upscale 
 ```js
-const { upscale } = require("nayan-apis-server");
+const { upscale } = require("nayan-apis-servers");
 
 const link = "link" //past pic link
 const model = "1"// model 1 or 2
@@ -224,7 +224,7 @@ upscale(link, model).then(data => {
 ```
 ## Usage TokenCookie (fb)
 ```js
-const { tokencookie } = require("nayan-apis-server");
+const { tokencookie } = require("nayan-apis-servers");
 
 const user = "username" // your fb username
 const pass = "password" // your fb password
@@ -235,7 +235,7 @@ tokencookie(user, pass).then(data => {
 ```
 ## Usage Fbinfo 
 ```js
-const { fbinfo } = require("nayan-apis-server");
+const { fbinfo } = require("nayan-apis-servers");
 
 const token = "token" // your fb access token
 const uid = "uid" // fb user uid
@@ -246,7 +246,7 @@ fbinfo(token, uid).then(data => {
 ```
 ## Usage GDLink 
 ```js
-const {GDLink} = require("nayan-apis-server");
+const {GDLink} = require("nayan-apis-servers");
 
 const url = 'url' // Public Google Drive Url
 
@@ -257,9 +257,9 @@ GDLink(url).then(data => {
 ```
 ## Usage Google Web Search 
 ```js
-const { gwsearch } = require("nayan-apis-server");
+const { gwsearch } = require("nayan-apis-servers");
 
-const name = "nayan-apis-server" // Name of the website
+const name = "nayan-apis-servers" // Name of the website
 const limit = "5" // limit of results (total limit 1-20)
   gwsearch(name, limit).then(data => {
   console.log(data)
@@ -267,7 +267,7 @@ const limit = "5" // limit of results (total limit 1-20)
 ```
 ## Usage Imagine 
 ```js
-const { imagine } = require("nayan-apis-server");
+const { imagine } = require("nayan-apis-servers");
 
 const promt = "cat, 4k" // your promt
   imagine(promt).then(data => {
@@ -281,7 +281,7 @@ Male: Bashkar, Pradeep
 Female: Nabanita, Tanisha
 ```
 ```js
-const { text2voice } = require('nayan-apis-server')
+const { text2voice } = require('nayan-apis-servers')
 const text = 'আমার নাম নয়ন';
 const name = 'Tanisha';
 const file = "nayan.mp3"
@@ -291,7 +291,7 @@ console.log(data)
 ```
 ## Usage faceswap 
 ```js
-const { faceswap } = require("nayan-apis-server");
+const { faceswap } = require("nayan-apis-servers");
 
 const sourceUrl = "link" //past source pic link
 const targetUrl = "link"// past target pic link
@@ -302,7 +302,7 @@ const targetUrl = "link"// past target pic link
 
 ## Usage Bdnews 
 ```js
-const { bdnews } = require('nayan-apis-server');
+const { bdnews } = require('nayan-apis-servers');
 
 async function main() {
     try {
